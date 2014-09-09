@@ -1,9 +1,16 @@
 
 .header{width:100%;color:#2c2c2c;background:#eeeeee;height:165px;}
-.logo{float: left;margin-top: 25px;margin-left:85px;}
-.menu-bar{float:right;margin-right:100px;line-height:165px;font-family:Arial, Helvetica, sans-serif;}
+	.logo{float: left;margin-top: 25px;margin-left:85px;}
+	.menu-bar{float:right;margin-right:100px;line-height:165px;font-family:Arial, Helvetica, sans-serif;}
 .image-banner img{width:100%;height:350px;}
 .image-banner{margin-bottom:12px;}
-.main-body-wrapper{width:1000px;margin:0px auto;margin-top:13px;}
-.left-column-wrapper{float:left;width:650px;margin-right:50px;}
-.right-column-wrapper{float:right;width:300px;}
+.main-body-wrapper{overflow:hidden;width:1000px;margin:0px auto;margin-top:13px;}
+	.left-column-wrapper{float:left;width:650px;margin-right:25px;}
+		.left-inside-wrapper{width:100%;margin-bottom: 25px;overflow: hidden;}
+			.left-inside-left{width:300px;float:left;margin-right:25px;}
+				.inside-header{width:100%}
+				.inside-body{width:100%;}
+				.inside-footer{float:right;width:103px;}
+			.left-inside-right{width:300px;float:right;margin-left:25px;}
+	.right-column-wrapper{float:right;width:300px;margin-left:25px;}
+		.right-inside-wrapper{width:100%;margin-bottom:25px;overflow:hidden;}
