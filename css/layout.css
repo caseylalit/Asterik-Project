@@ -13,6 +13,10 @@
 				.inside-footer{float:right;width:103px;}
 			.left-inside-right{width:300px;float:right;margin-left:25px;}
 		.left-bottom-wrapper{width:100%;}
+			.bottom-body-wrapper1{overflow:hidden;margin-bottom:10px;}
+			.bottom-body-wrapper2{overflow:hidden;margin-top:10px;}	
+				.thumbnails-wrapper{float:left;margin-right:15px;}
+				.body-wrapper{float:right;margin-left:15px;width:475px;}
 			
 	.right-column-wrapper{float:right;width:300px;margin-left:25px;}
 		.right-inside-wrapper{width:100%;margin-bottom:25px;overflow:hidden;}
